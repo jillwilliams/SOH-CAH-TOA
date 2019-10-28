@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>  
+<head>
+	<meta charset="UTF-8" Unicode="U+00A9, UTF-8: C2 A9" Unicode="U+00B0, UTF-8: C2 B0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SOH-CAH-TOA</title>
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani|Satisfy|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link HREF="./styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>
+        SOH-CAH-TOA
+    </h1>
+    <p>
+        <img src="images/formulas.png" alt="formulas" id="formulas" />
+    </p>
+    <h2>
+        Given any right triangle, if you know one side length and one angle's degrees, you can solve the triangle using the Sine, Cosine, or Tangent formulas. 
+        <br><br>
+        All three formulas apply to the triangle, but due to what information we know about the triangle, we typically chose only one. Which one depends on what information we know about the triangle.
+    </h2>
+    <button type="submit" id="btn" onclick="info()">More Info</button>
+    <p id="demo"></p>
+    <button type="submit" id="btn" onclick="info2()">Less Info</button>
+    <h3>
+        Enter the information into the boxes below. Then click submit for the answer.
+    </h3>
+    <table>
+        <tr>
+            <td>
+                adjacent = <input type="text" id="adj">
+            </td>
+            <td>
+                opposite = <input type="text" id="opp">
+            </td>
+            <td>
+                hypotenuse = <input type="text" id="hyp">
+            </td>
+            <td>
+                angle degrees = <input type="text" id="angle">
+            </td>
+        </tr>
+    </table>
+    <button type="submit" id="btn2" onclick="myCalc()">Submit</button>
+    <p id="demo1"></p>
+    <footer>
+        ©2019 All Things Math
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

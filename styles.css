@@ -1,0 +1,82 @@
+/* font-family: 'Shadows Into Light', cursive;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Satisfy', cursive; */
+body {
+    background-color: black;
+    color: aqua;
+    margin: 15px 25px 45px 25px;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+
+}
+/* TITLE */
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px grey;
+}
+/* IMAGES OF TRIG FUNCTIONS */
+#formulas {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+}
+/* TEXT-EXPLANATIONS */
+h2 {
+    font-family: 'Rajdhani', sans-serif;
+}
+h3, footer {
+    font-family: 'Shadows Into Light', cursive;
+
+}
+/* BUTTON TO CLICK FOR MORE INFORMATION */
+#btn {
+    width: 10%;
+    height: 60px;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+    font-size: 1.5rem;
+    color: black;
+}
+/* TEXT INPUTS FOR TRIANGLE DIMENSIONS */
+#adj, #opp, #hyp, #angle {
+    width: 30%;
+    height: 60px;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+#btn2 {
+    width: 10%;
+    height: 60px;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+    font-size: 1.5rem;
+    color: black;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 45px;
+
+}
+/* TEXT FOR THE MORE OR LESS INFORMATION */
+#demo1 {
+    font-family: 'Rajdhani', sans-serif;
+    width: 20%;
+    height: 70px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px 1px 1px black solid;
+    outline: 1px 1px 1px aqua solid;
+    background-color: grey;
+    
+
+
+}
+footer, td {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    margin-top: 45px;
+}

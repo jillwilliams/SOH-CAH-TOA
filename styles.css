@@ -72,9 +72,64 @@ h3, footer {
     outline: 1px 1px 1px aqua solid;
     background-color: grey;
 }
+/* TEXT: PLEASE SEE "SOLVING..." */
 #end {
     text-align: center;
 }
+/* IMAGES OF EXAMPLE PROBLEMS */
+#img1 {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+}
+
+#img2 {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+}
+
+#img3 {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+}
+
+#img4 {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+}
+#img5 {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+}
+}
+#img6 {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+}
+
 footer, td {
     font-family: 'Shadows Into Light', cursive;
     text-align: center;

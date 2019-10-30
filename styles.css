@@ -41,7 +41,7 @@ h3, footer {
     color: black;
 }
 /* TEXT INPUTS FOR TRIANGLE DIMENSIONS */
-#adj, #opp, #hyp, #angle {
+#adj1, #opp1, #hyp1, #angle1 {
     width: 30%;
     height: 60px;
     font-size: 1.5rem;
@@ -71,9 +71,9 @@ h3, footer {
     border: 1px 1px 1px black solid;
     outline: 1px 1px 1px aqua solid;
     background-color: grey;
-    
-
-
+}
+#end {
+    text-align: center;
 }
 footer, td {
     font-family: 'Shadows Into Light', cursive;
